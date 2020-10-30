@@ -1,0 +1,28 @@
+{
+  "name": "node.js-express-restapi-upload-import-excel-xlsl-to-mongodb",
+  "version": "1.0.0",
+  "description": "Nodejs Express Upload Import Excel File/Data to MongoDB",
+  "main": "file.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node file.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Mongodb",
+    "Multer",
+    "Convert-Excel-to-Json"
+  ],
+  "author": "grokonez.com",
+  "license": "ISC",
+  "dependencies": {
+    "convert-excel-to-json": "^1.6.1",
+    "express": "^4.16.4",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.10.10",
+    "mongoose-auto-increment": "^5.0.1",
+    "multer": "^1.4.1",
+    "simple-mongoose-autoincrement": "^1.2.1"
+  }
+}
